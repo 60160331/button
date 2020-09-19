@@ -1,0 +1,19 @@
+edit = #ecb100
+delete,reject,no = #c2161c
+approve,check,ok = #7eb73d
+view,search = #00bcd4
+status,cancel = #686868 
+Export = #192841
+
+ตัวอย่างการเขียน
+<button style ="background-color:#7eb73d; border-color:#7eb73d;" type="button" 
+class="btn btn-sm btn-success"data-toggle="modal" data-target="#myApprove">
+<img src="../assets/images/button/check.svg" class = "icon"/></button>
+
+เพิ่ม class css
+.icon{
+	max-height: 15px;
+max-width: 25px;
+width: 15px;
+height: 25px;
+}
